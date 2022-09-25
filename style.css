@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: #d1d1d1;
+}
+
+img {
+    width: 30rem;
+}
+
+.inline {
+    display: inline;
+    font-weight: bolder;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    flex: 1;
+    padding: 1rem;
+}
+
+#p1Add {
+    background-color: greenyellow;
+}
+
+#p2Add {
+    color: white;
+    background-color: blue;
+}
+
+#reset {
+    color: white;
+    background-color: red;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}

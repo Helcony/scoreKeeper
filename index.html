@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Score keeper</title>
+</head>
+<body>
+    <section>
+        <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="ping pong">
+        <h1>Shitty (ping pong) score keeper</h1>
+        <div class="scores">
+            <div class="inline" id="p1Score">0</div>
+            <div class="inline" class="">to</div>
+            <div class="inline" id="p2Score">0</div>
+        </div>
+        <div>
+            <label for="num">Playing to</label>
+            <input id="num" name="num" type="number" min="0" max="10">
+        </div>
+        <div class="buttons">
+            <button id="p1Add">+1 player one</button>
+            <button id="p2Add">+1 player two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+</body>
+<script src="./main.js"></script>
+</html>
